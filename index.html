@@ -13,11 +13,32 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      darklightTheme: {
+        siteFont : 'PT Sans',
+        defaultTheme : 'dark',
+        dark: {
+          accent: '#42b983',
+          toogleBackground : '#ffffff',
+          background: '#091a28',
+          textColor: '#b4b4b4',
+          codeTextColor : '#ffffff',
+          codeBackgroudColor : '#0e2233',
+          borderColor : '#0d2538',
+          blockQuoteColour : '#858585',
+          highlightColor : '#d22778',
+          sidebarSublink : '#b4b4b4',
+          codeTypeColor : '#ffffff',
+          //toogleImage : 'url(null)',
+          coverBackground : 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)'
+        },
+        codeFontFamily : 'Roboto Mono, Monaco, courier, monospace'
+      },
       el: "#app",
       repo: 'https://github.com/bryantson/OpensourceDotComDemos/tree/master/DocsifyDemo',
       loadSidebar: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
 </body>
 </html>
